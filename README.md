@@ -18,3 +18,7 @@ huzai.add    :長期不在届を追加する権限(/huzai add)
 huzai.check  :長期不在届を確認する権限(/huzai check)  
 huzai.del    :長期不在届を削除する権限(/huzao del)  
 
+**absences.yml**
+plugin/huzaiの中に*absences.yml*があります。
+こちらは、不在者のデータがあります。
+## 動画時点では、UUID非対応ですがver3はUUID対応しました。

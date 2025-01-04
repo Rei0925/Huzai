@@ -1,0 +1,27 @@
+name: Huzai
+version: '${version}'
+main: com.github.Rei0925.huzai.Huzai
+api-version: '1.20'
+commands:
+  huzai:
+    description: 長期不在届を管理します。
+    usage: /huzai <add|check|del>
+    permission: huzai.use
+    permission-message: "§c§l権限がありません。"
+
+permissions:
+  huzai.use:
+    description: 長期不在届コマンドを使用する基本権限
+    default: op
+  huzai.add:
+    description: 長期不在届を追加する権限
+    default: op
+  huzai.check:
+    description: 長期不在届を確認する権限
+    default: op
+  huzai.del:
+    description: 長期不在届を削除する権限
+    default: op
+  huzai.list:
+    description: 不在者リストを表示する権限
+    default: op

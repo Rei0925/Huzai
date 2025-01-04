@@ -1,0 +1,31 @@
+config-version: 1.0
+
+messages:
+  nopermission: "§c§l権限がありません。"
+  invalidcommand: "§c§l無効なコマンドです。/huzai <add|check|del> を使用してください。"
+  usage_add: "§c§l使い方: /huzai add <名前> <期限(年)> <期限(月)> <期限(日)>"
+  usage_check: "§c§l使い方: /huzai check <名前>"
+  usage_del: "§c§l使い方: /huzai del <名前>"
+  added: "§b§l{player}§fさんの§c§l長期不在届§fを登録しました。"
+  deadline: "§a§l期限: {deadline}"
+  deleted: "§b§l{player}§fさんの§c§l長期不在届§fを削除しました。"
+  notfound: "§c§l{player}§fさんの長期不在届は見つかりませんでした。"
+  past_date: "§c過去の日付を設定することはできません。未来の日付を指定してください。"
+  no_absentees: "§a現在、§c§l長期不在届提出者§aはいません。"
+  absentee_list_header: "§a現在、§c§l長期不在届§aが登録されているプレイヤー一覧:"
+  absentee_entry: "§e{player} §f(期限: {deadline})"
+  all_deleted: "§a全ての§c§l長期不在届§aを削除しました。"
+  too_far_date: "§c設定可能な日付は現在から {max_days} 日以内です。"
+  invalid_date: "§c日付の形式が不正です。形式: yyyy/MM/dd"
+  player_not_found: "§cプレイヤー {player} は見つかりませんでした。"
+  noabsence: "§b§l{player}§fさんの§c§l長期不在届§fは登録されていません。"
+  noabsence_self: "§aあなたの§c§l長期不在届§aは登録されていません。"
+  deadline1: "§b§l{player}§fさんの§c§l長期不在届§f状況\n§a§l期限: {deadline}"
+  deadline1_self: "§bあなた§fの§c§l長期不在届§f状況\n§a§l期限: {deadline}"
+
+
+
+
+settings:
+  max_days_in_future: 365  # 最大未来日数 (日数)
+  allow_past_dates: false  # 過去の日付を許可するか
